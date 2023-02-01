@@ -6,7 +6,8 @@ const options = {
     method: 'GET',
     url: BASE_URL,
     params: {      
-      maxResults: '50',       
+      maxResults: '50',
+      regionCode: 'UK'       
     },
     headers: {
       'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
