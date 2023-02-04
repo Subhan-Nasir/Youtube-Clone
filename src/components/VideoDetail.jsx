@@ -34,7 +34,7 @@ const VideoDetail = () => {
   
 
   return (
-    <Box minHeight="80vh">
+    <Box minHeight="80vh" sx={{background:"#151515"}}>
       <Stack direction={{xs:"column", md:"row" }}>
         <Box flex={1}>
           <Box sx={{width:"100%", top:"86px"}}>
